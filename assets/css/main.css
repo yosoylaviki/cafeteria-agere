@@ -9664,4 +9664,11 @@ img {
   max-width: 100%;
 }
 
+.header__blue {
+  background-color: blue;
+  width: 500px;
+  height: 40px;
+  border: 2px solid blue;
+}
+
 /*# sourceMappingURL=main.css.map */
