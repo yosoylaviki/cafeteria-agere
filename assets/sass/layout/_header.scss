@@ -1,6 +1,51 @@
+.header{
+  position: relative;
+}
+
 .header__blue{
-  background-color: blue;
+  background-color: $Blue-de-france;
   width: 500px;
-  height: 40px;
-  border: 2px solid blue;
+  height: 200px;
+  border: 2px solid $Blue-de-france;
+  margin-left: 440px;
+  position: absolute;
+  z-index: 0;
+}
+
+.header__icons{
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  margin-left: 250px;
+}
+
+.uno{
+  display: inline-block;
+  width: 200px;
+}
+
+.dos{
+  display: inline-block;
+  width: 200px;
+}
+
+.tres{
+  display: inline-block;
+  width: 200px;
+}
+
+.orange{
+  display: inline-block;
+  background-color: $Flame;
+ width: 200px;
+}
+
+.yellow{
+background-color: yellow;
+width: 200px;
+}
+
+.fas{
+  color: white;
 }

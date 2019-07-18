@@ -9664,11 +9664,100 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  font-family: "PT Mono", monospace;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "PT Mono", monospace;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  font-family: "PT Mono", monospace;
+  margin: 0 40px 0 40px;
+}
+
+.navbar-brand {
+  width: 40px;
+}
+
+.nav-link {
+  color: #989797;
+}
+
+.btn {
+  border: none;
+}
+
+.header {
+  position: relative;
+}
+
 .header__blue {
-  background-color: blue;
+  background-color: #3C91E6;
   width: 500px;
-  height: 40px;
-  border: 2px solid blue;
+  height: 200px;
+  border: 2px solid #3C91E6;
+  margin-left: 440px;
+  position: absolute;
+  z-index: 0;
+}
+
+.header__icons {
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  margin-left: 250px;
+}
+
+.uno {
+  display: inline-block;
+  width: 200px;
+}
+
+.dos {
+  display: inline-block;
+  width: 200px;
+}
+
+.tres {
+  display: inline-block;
+  width: 200px;
+}
+
+.orange {
+  display: inline-block;
+  background-color: #E4572E;
+  width: 200px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 200px;
+}
+
+.fas {
+  color: white;
+}
+
+.section-principal {
+  font-family: "PT Mono", monospace;
+}
+
+.map {
+  margin-top: 30px;
+}
+
+.coffee-img {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
